@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from './pages/Home'
+
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="woofer.svg" className="App-logo" alt="logo" />
-        <p>
-          Woofer
-        </p>
-        <p className="small">
-          An Innovation & Technology team challenge
-        </p>
-      </header>
+      <Home />
     </div>
   );
 }

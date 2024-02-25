@@ -1,0 +1,11 @@
+.results-container {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 3em;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+

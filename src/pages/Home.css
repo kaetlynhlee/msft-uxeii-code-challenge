@@ -1,0 +1,37 @@
+.home-page{
+    width: 100%;
+}
+
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-logo {
+    height: 70px;
+    width: auto; 
+    pointer-events: none;
+    box-shadow: 5px 5px 5px #cbcbcb;
+    border-radius: 10px;
+  }
+  
+header {
+    background-color: transparent;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #2F3A4B;
+    margin-top: 5vh;
+  }
+  
+  .woofer-title{
+    margin-left: 20px; 
+    font-weight: bold;
+    pointer-events: none;
+  }
