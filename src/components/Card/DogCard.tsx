@@ -9,7 +9,7 @@ interface Props {
 const DogCard: React.FC<Props> = ({ imgUrl, breedName }) => {
     return (
         <div className='card-container'>
-            <img className='breed-img' alt={breedName} src={imgUrl} />
+            <a href={`http://www.google.com/search?q=${breedName}+dog+rescue`}><img className='breed-img' alt={breedName} src={imgUrl} /></a>
             <div className='breed-title'>
                 {breedName}
             </div>
