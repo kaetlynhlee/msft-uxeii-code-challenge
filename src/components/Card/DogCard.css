@@ -12,6 +12,10 @@ a{
     width: 100%;
 }
 
+img:hover{
+    transform: translate(-2px, -2px);
+}
+
 .breed-img {
     height: 250px;
     width: 100%;
@@ -36,3 +40,10 @@ a{
     font-weight: bold;
 }
 
+.favorites-btn{
+    cursor: pointer; 
+}
+
+.favorites-btn:hover{
+    font-weight: bold; 
+}

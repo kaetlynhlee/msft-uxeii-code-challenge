@@ -22,7 +22,7 @@ const DogCard: React.FC<Props> = ({ imgUrl, breedName }) => {
             <div className='breed-title'>
                 {breedName}
             </div>
-            <div onClick={() => { addDog({'url': imgUrl, 'name': breedName}) }}>ADD</div>
+            <div className='favorites-btn' onClick={() => { addDog({'url': imgUrl, 'name': breedName}) }}>ADD</div>
             </div>
 
         </div>
