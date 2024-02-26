@@ -20,10 +20,10 @@ const Home: React.FC = () => {
           Woofer
         </p>
       </header>
-      <body>
+      <div className='search-container'>
             <SearchBar setResults={setDogResults} />
             <SearchResults results={dogResults} />
-        </body>
+        </div>
         </div>
       
     );

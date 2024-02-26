@@ -194,8 +194,11 @@ const SearchBar: React.FC<Props> = ({ setResults }) => {
                     {options.map((option) => {
                         if (option.type === 'parent') {
                             return (
-                                <>
+                                <div
+                                key={option.urlparam}
+                                >
                                     <button
+                                        key={option.breed}
                                         onClick={handleOptionSelected}
                                         className='option parent-breed-option'
                                         value={option.breed}
@@ -209,6 +212,7 @@ const SearchBar: React.FC<Props> = ({ setResults }) => {
                                             let subBreedValue = value;
                                             return (
                                                 <button
+                                                    key={subBreedValue}
                                                     onClick={handleOptionSelected}
                                                     className='option sub-breed-option'
                                                     value={subBreedValue}
@@ -217,7 +221,7 @@ const SearchBar: React.FC<Props> = ({ setResults }) => {
                                                 </button>
                                             );
                                         })}
-                                </>
+                                </div>
                             );
                         }
                     })}
